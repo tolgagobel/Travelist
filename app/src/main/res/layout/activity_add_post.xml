@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPostActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mainblue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:text="Travelist"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/post_image_blog"
+        android:layout_width="392dp"
+        android:layout_height="270dp"
+        android:layout_marginEnd="1dp"
+        android:background="#E4FFFFFF"
+        android:minHeight="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_addimage"
+        app:layout_constraintBottom_toTopOf="@+id/description_blog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_blog"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/description_blog"
+        android:layout_width="match_parent"
+        android:layout_height="267dp"
+        android:layout_marginBottom="20dp"
+        android:background="#3E007FB6"
+        android:gravity="start"
+        android:hint="Description of the Blog"
+        android:inputType="textCapSentences|textMultiLine"
+        android:minHeight="120dp"
+        app:layout_constraintBottom_toTopOf="@+id/upload"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/post_image_blog" />
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="110dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:text="Upload"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_blog" />
+
+    <EditText
+        android:id="@+id/title_blog"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="#3E007FB6"
+        android:gravity="center"
+        android:hint="Title"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/post_image_blog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

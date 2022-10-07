@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "650535586340",
+    "project_id": "travelist-5b7a6",
+    "storage_bucket": "travelist-5b7a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650535586340:android:58ccf914da4110c7e3a6b1",
+        "android_client_info": {
+          "package_name": "com.example.travelist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650535586340-p1153smd1mth82v4tn20d9kpqoc7ctia.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.travelist",
+            "certificate_hash": "6808f63ec69d24506fa5f84fa5c2914deb58e829"
+          }
+        },
+        {
+          "client_id": "650535586340-2h8gr0spgg7ghs6fg6jf5v15qruegpnu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgJrtajPOivf4r5rMHmbFJBMvWze2XmzQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650535586340-2h8gr0spgg7ghs6fg6jf5v15qruegpnu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
